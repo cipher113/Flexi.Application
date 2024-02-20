@@ -8,6 +8,7 @@ using Flexi.Application.Infrastructure.Data.Queries;
 using Flexi.Application.Infrastructure.Email;
 using Flexi.Application.UseCases.Contributors.Create;
 using Flexi.Application.UseCases.Contributors.List;
+using Flexi.Application.UseCases.Lectures.List;
 using MediatR;
 using MediatR.Pipeline;
 using Module = Autofac.Module;
@@ -77,6 +78,10 @@ public class AutofacInfrastructureModule : Module
   {
     builder.RegisterType<ListContributorsQueryService>()
       .As<IListContributorsQueryService>()
+      .InstancePerLifetimeScope();
+
+    builder.RegisterType<ListLecturesQueryService>()
+      .As<IListLecturesQueryService>()
       .InstancePerLifetimeScope();
   }
 
