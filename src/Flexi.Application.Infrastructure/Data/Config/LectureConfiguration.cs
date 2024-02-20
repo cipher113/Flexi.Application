@@ -14,12 +14,11 @@ public class LectureConfiguration : IEntityTypeConfiguration<Lecture>
   {
     builder.ToTable("Lectures");
 
-    builder.OwnsOne(l => l.TimeSlot, ts =>
-    {
-      ts.Property(ts => ts.Day).IsRequired();
-      ts.Property(ts => ts.Time).IsRequired();
-      ts.Property(ts => ts.Duration).IsRequired();
-    });
+    builder.Property(l => l.SubjectId).IsRequired();
+    builder.Property(l => l.LectureTheatreId).IsRequired();
+    builder.Property(l => l.Day).IsRequired();
+    builder.Property(l => l.Time).IsRequired();
+    builder.Property(l => l.Duration).IsRequired();
 
     builder.HasOne(l => l.Subject)
         .WithMany(s => s.Lectures)

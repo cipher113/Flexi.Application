@@ -3,4 +3,4 @@ using Ardalis.SharedKernel;
 using Flexi.Application.Core.Aggregates.StudentAggregate;
 
 namespace Flexi.Application.UseCases.Students.List;
-public record ListSubjectQuery(int? Skip, int? Take) : IQuery<Result<IEnumerable<Student>>>;
+public record ListStudentQuery(int? Skip, int? Take) : IQuery<Result<IEnumerable<Student>>>;

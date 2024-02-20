@@ -16,7 +16,7 @@ public class List(IMediator _mediator) : EndpointWithoutRequest<SubjectListRespo
 {
   public override void Configure()
   {
-    Get("/Students");
+    Get("/Subjects");
     AllowAnonymous();
   }
 

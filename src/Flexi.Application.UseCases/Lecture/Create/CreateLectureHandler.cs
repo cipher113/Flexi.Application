@@ -14,7 +14,7 @@ public class CreateLectureHandler(IRepository<Lecture> _repository)
   public async Task<Result<int>> Handle(CreateLectureCommand request, CancellationToken cancellationToken)
   {
     var timeSlot = new LectureTime(request.Day, request.Time, request.Duration);
-    var newLecture = new Lecture(request.SubjectId, request.TheatreId, timeSlot);
+    var newLecture = new Lecture(request.SubjectId, request.TheatreId, request.Day, request.Time, request.Duration);
     var createdItem = await _repository.AddAsync(newLecture, cancellationToken);
 
     return createdItem.Id;

@@ -22,7 +22,7 @@ public class List(IMediator _mediator) : EndpointWithoutRequest<StudentListRespo
 
   public override async Task HandleAsync(CancellationToken cancellationToken)
   {
-    var result = await _mediator.Send(new ListSubjectQuery(null, null));
+    var result = await _mediator.Send(new ListStudentQuery(null, null));
 
     if (result.IsSuccess)
     {
