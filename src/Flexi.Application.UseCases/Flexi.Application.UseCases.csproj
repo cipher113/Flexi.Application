@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Ardalis.Result" />
+    <PackageReference Include="MediatR" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Flexi.Application.Core\Flexi.Application.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Students\Enroll\" />
+  </ItemGroup>
+
+</Project>

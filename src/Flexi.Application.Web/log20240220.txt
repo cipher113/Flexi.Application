@@ -1,0 +1,323 @@
+2024-02-20 04:11:38.941 +05:00 [INF] Registered 5 endpoints in 1669 milliseconds.
+2024-02-20 04:11:40.214 +05:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-02-20 04:11:40.357 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Contributors" AS "c")
+2024-02-20 04:11:40.618 +05:00 [INF] Now listening on: http://localhost:57679
+2024-02-20 04:11:40.619 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-20 04:11:40.620 +05:00 [INF] Hosting environment: Development
+2024-02-20 04:11:40.620 +05:00 [INF] Content root path: C:\Users\Yahya\Documents\Visual Studio 2022\Projects\FlexiSchools\Flexi.Application\src\Flexi.Application.Web
+2024-02-20 04:11:43.011 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger - null null
+2024-02-20 04:11:43.187 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger - 302 0 null 179.3422ms
+2024-02-20 04:11:43.190 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/index.html - null null
+2024-02-20 04:11:43.425 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 234.6036ms
+2024-02-20 04:11:43.440 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-20 04:11:43.441 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_vs/browserLink - null null
+2024-02-20 04:11:43.444 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 3.8567ms
+2024-02-20 04:11:43.466 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.5316ms
+2024-02-20 04:11:43.633 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/v1/swagger.json - null null
+2024-02-20 04:11:43.664 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-02-20 04:11:44.125 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 492.8361ms
+2024-02-20 04:13:32.564 +05:00 [INF] Registered 5 endpoints in 470 milliseconds.
+2024-02-20 04:14:09.747 +05:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-02-20 04:14:10.249 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Contributors" AS "c")
+2024-02-20 04:14:15.645 +05:00 [INF] Now listening on: http://localhost:57679
+2024-02-20 04:14:15.646 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-20 04:14:15.647 +05:00 [INF] Hosting environment: Development
+2024-02-20 04:14:15.647 +05:00 [INF] Content root path: C:\Users\Yahya\Documents\Visual Studio 2022\Projects\FlexiSchools\Flexi.Application\src\Flexi.Application.Web
+2024-02-20 04:14:15.958 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger - null null
+2024-02-20 04:14:16.058 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger - 302 0 null 104.2507ms
+2024-02-20 04:14:16.061 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/index.html - null null
+2024-02-20 04:14:16.154 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 92.835ms
+2024-02-20 04:14:16.164 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-20 04:14:16.170 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_vs/browserLink - null null
+2024-02-20 04:14:16.175 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 11.7266ms
+2024-02-20 04:14:16.201 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.3694ms
+2024-02-20 04:14:16.244 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/v1/swagger.json - null null
+2024-02-20 04:14:16.252 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-02-20 04:14:16.585 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 341.6027ms
+2024-02-20 04:38:07.002 +05:00 [INF] Registered 5 endpoints in 452 milliseconds.
+2024-02-20 04:38:07.683 +05:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-02-20 04:38:07.749 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Contributors" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Contributors" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Status" INTEGER NOT NULL
+);
+2024-02-20 04:38:07.750 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "LectureTheatres" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_LectureTheatres" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Capacity" INTEGER NOT NULL
+);
+2024-02-20 04:38:07.751 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Students" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Students" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL
+);
+2024-02-20 04:38:07.752 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Subjects" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Subjects" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL
+);
+2024-02-20 04:38:07.753 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Enrollments" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Enrollments" PRIMARY KEY AUTOINCREMENT,
+    "StudentId" INTEGER NOT NULL,
+    "SubjectId" INTEGER NOT NULL,
+    CONSTRAINT "FK_Enrollments_Students_StudentId" FOREIGN KEY ("StudentId") REFERENCES "Students" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_Enrollments_Subjects_SubjectId" FOREIGN KEY ("SubjectId") REFERENCES "Subjects" ("Id") ON DELETE CASCADE
+);
+2024-02-20 04:38:07.755 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Lectures" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Lectures" PRIMARY KEY AUTOINCREMENT,
+    "SubjectId" INTEGER NOT NULL,
+    "LectureTheatreId" INTEGER NOT NULL,
+    "TimeSlot_Day" TEXT NULL,
+    "TimeSlot_Time" TEXT NULL,
+    "TimeSlot_Duration" INTEGER NULL,
+    CONSTRAINT "FK_Lectures_LectureTheatres_LectureTheatreId" FOREIGN KEY ("LectureTheatreId") REFERENCES "LectureTheatres" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_Lectures_Subjects_SubjectId" FOREIGN KEY ("SubjectId") REFERENCES "Subjects" ("Id") ON DELETE CASCADE
+);
+2024-02-20 04:38:07.757 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Enrollments_StudentId" ON "Enrollments" ("StudentId");
+2024-02-20 04:38:07.758 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Enrollments_SubjectId" ON "Enrollments" ("SubjectId");
+2024-02-20 04:38:07.759 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Lectures_LectureTheatreId" ON "Lectures" ("LectureTheatreId");
+2024-02-20 04:38:07.760 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Lectures_SubjectId" ON "Lectures" ("SubjectId");
+2024-02-20 04:38:07.882 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Contributors" AS "c")
+2024-02-20 04:38:07.911 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status"
+FROM "Contributors" AS "c"
+2024-02-20 04:38:08.000 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 7), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Contributors" ("Name", "Status")
+VALUES (@p0, @p1)
+RETURNING "Id";
+2024-02-20 04:38:08.012 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 8), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Contributors" ("Name", "Status")
+VALUES (@p0, @p1)
+RETURNING "Id";
+2024-02-20 04:38:08.125 +05:00 [INF] Now listening on: http://localhost:57679
+2024-02-20 04:38:08.126 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-20 04:38:08.126 +05:00 [INF] Hosting environment: Development
+2024-02-20 04:38:08.127 +05:00 [INF] Content root path: C:\Users\Yahya\Documents\Visual Studio 2022\Projects\FlexiSchools\Flexi.Application\src\Flexi.Application.Web
+2024-02-20 04:38:10.528 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger - null null
+2024-02-20 04:38:10.643 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger - 302 0 null 118.9838ms
+2024-02-20 04:38:10.646 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/index.html - null null
+2024-02-20 04:38:10.736 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 90.0691ms
+2024-02-20 04:38:10.746 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-20 04:38:10.748 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_vs/browserLink - null null
+2024-02-20 04:38:10.751 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 4.5042ms
+2024-02-20 04:38:10.778 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.3649ms
+2024-02-20 04:38:10.826 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/v1/swagger.json - null null
+2024-02-20 04:38:10.835 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-02-20 04:38:11.166 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 339.3631ms
+2024-02-20 09:26:03.649 +05:00 [INF] Registered 6 endpoints in 1734 milliseconds.
+2024-02-20 09:26:04.917 +05:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-02-20 09:26:05.056 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Contributors" AS "c")
+2024-02-20 09:26:05.293 +05:00 [INF] Now listening on: http://localhost:57679
+2024-02-20 09:26:05.293 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-20 09:26:05.294 +05:00 [INF] Hosting environment: Development
+2024-02-20 09:26:05.295 +05:00 [INF] Content root path: C:\Users\Yahya\Documents\Visual Studio 2022\Projects\FlexiSchools\Flexi.Application\src\Flexi.Application.Web
+2024-02-20 09:26:18.024 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger - null null
+2024-02-20 09:26:18.232 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger - 302 0 null 211.3367ms
+2024-02-20 09:26:18.236 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/index.html - null null
+2024-02-20 09:26:18.477 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 241.106ms
+2024-02-20 09:26:18.487 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-20 09:26:18.488 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_vs/browserLink - null null
+2024-02-20 09:26:18.492 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 4.5031ms
+2024-02-20 09:26:18.523 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.747ms
+2024-02-20 09:26:18.576 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/v1/swagger.json - null null
+2024-02-20 09:26:18.612 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-02-20 09:26:19.137 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 560.9284ms
+2024-02-20 09:31:19.465 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:57679/Students - application/json 55
+2024-02-20 09:31:19.468 +05:00 [WRN] Failed to determine the https port for redirect.
+2024-02-20 09:31:19.470 +05:00 [INF] Executing endpoint 'HTTP: POST /Students'
+2024-02-20 09:31:26.339 +05:00 [INF] Handling CreateStudentCommand
+2024-02-20 09:31:26.340 +05:00 [INF] Property Name : John Doe
+2024-02-20 09:31:26.481 +05:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Students" ("Name")
+VALUES (@p0)
+RETURNING "Id";
+2024-02-20 09:31:26.505 +05:00 [INF] Handled CreateStudentCommand with Ardalis.Result.Result`1[System.Int32] in 164 ms
+2024-02-20 09:31:43.135 +05:00 [INF] Executed endpoint 'HTTP: POST /Students'
+2024-02-20 09:31:43.141 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:57679/Students - 200 null application/json 23676.091ms
+2024-02-20 09:45:13.053 +05:00 [INF] Registered 6 endpoints in 541 milliseconds.
+2024-02-20 09:45:13.793 +05:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-02-20 09:45:13.910 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Contributors" AS "c")
+2024-02-20 09:45:14.011 +05:00 [INF] Now listening on: http://localhost:57679
+2024-02-20 09:45:14.012 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-20 09:45:14.012 +05:00 [INF] Hosting environment: Development
+2024-02-20 09:45:14.013 +05:00 [INF] Content root path: C:\Users\Yahya\Documents\Visual Studio 2022\Projects\FlexiSchools\Flexi.Application\src\Flexi.Application.Web
+2024-02-20 09:45:23.832 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/Students - null null
+2024-02-20 09:45:23.881 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger - null null
+2024-02-20 09:45:23.901 +05:00 [WRN] Failed to determine the https port for redirect.
+2024-02-20 09:45:23.905 +05:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-02-20 09:45:23.907 +05:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-02-20 09:45:23.919 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/Students - 405 0 null 92.7018ms
+2024-02-20 09:45:23.967 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger - 302 0 null 86.5589ms
+2024-02-20 09:45:23.971 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/index.html - null null
+2024-02-20 09:45:24.081 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 109.3235ms
+2024-02-20 09:45:24.091 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-20 09:45:24.092 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_vs/browserLink - null null
+2024-02-20 09:45:24.095 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 4.1171ms
+2024-02-20 09:45:24.117 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.2525ms
+2024-02-20 09:45:24.169 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/v1/swagger.json - null null
+2024-02-20 09:45:24.179 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-02-20 09:45:24.574 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 404.5374ms
+2024-02-20 09:48:51.793 +05:00 [INF] Registered 7 endpoints in 425 milliseconds.
+2024-02-20 09:48:51.824 +05:00 [ERR] The route "GET:/Contributors" has 2 endpoints registered to handle requests!
+2024-02-20 09:49:23.959 +05:00 [INF] Registered 7 endpoints in 429 milliseconds.
+2024-02-20 09:49:24.689 +05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-02-20 09:49:24.809 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Contributors" AS "c")
+2024-02-20 09:49:24.893 +05:00 [INF] Now listening on: http://localhost:57679
+2024-02-20 09:49:24.894 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-20 09:49:24.895 +05:00 [INF] Hosting environment: Development
+2024-02-20 09:49:24.895 +05:00 [INF] Content root path: C:\Users\Yahya\Documents\Visual Studio 2022\Projects\FlexiSchools\Flexi.Application\src\Flexi.Application.Web
+2024-02-20 09:49:36.404 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger - null null
+2024-02-20 09:49:36.505 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger - 302 0 null 105.2592ms
+2024-02-20 09:49:36.509 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/index.html - null null
+2024-02-20 09:49:36.610 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 100.5152ms
+2024-02-20 09:49:36.620 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_vs/browserLink - null null
+2024-02-20 09:49:36.620 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-20 09:49:36.626 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 5.3417ms
+2024-02-20 09:49:36.646 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.9727ms
+2024-02-20 09:49:36.690 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/v1/swagger.json - null null
+2024-02-20 09:49:36.699 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-02-20 09:49:37.073 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 383.7829ms
+2024-02-20 09:49:52.991 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/Students - null null
+2024-02-20 09:49:52.997 +05:00 [WRN] Failed to determine the https port for redirect.
+2024-02-20 09:49:53.000 +05:00 [INF] Executing endpoint 'HTTP: GET /Students'
+2024-02-20 09:49:53.027 +05:00 [INF] Handling ListStudentQuery
+2024-02-20 09:49:53.029 +05:00 [INF] Property Skip : null
+2024-02-20 09:49:53.030 +05:00 [INF] Property Take : null
+2024-02-20 09:49:53.113 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."Name"
+FROM "Students" AS "s"
+2024-02-20 09:49:53.147 +05:00 [INF] Handled ListStudentQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[Flexi.Application.Core.Aggregates.StudentAggregate.Student]] in 115 ms
+2024-02-20 09:49:53.160 +05:00 [INF] Executed endpoint 'HTTP: GET /Students'
+2024-02-20 09:49:53.166 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/Students - 200 null application/json 174.8416ms
+2024-02-20 09:51:11.427 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/Students - null null
+2024-02-20 09:51:11.429 +05:00 [INF] Executing endpoint 'HTTP: GET /Students'
+2024-02-20 09:51:11.431 +05:00 [INF] Handling ListStudentQuery
+2024-02-20 09:51:11.432 +05:00 [INF] Property Skip : null
+2024-02-20 09:51:11.433 +05:00 [INF] Property Take : null
+2024-02-20 09:51:15.758 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."Name"
+FROM "Students" AS "s"
+2024-02-20 09:51:38.819 +05:00 [INF] Handled ListStudentQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[Flexi.Application.Core.Aggregates.StudentAggregate.Student]] in 27385 ms
+2024-02-20 09:51:38.825 +05:00 [INF] Executed endpoint 'HTTP: GET /Students'
+2024-02-20 09:51:38.825 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/Students - 200 null application/json 27398.6131ms
+2024-02-20 09:52:10.363 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/Students - null null
+2024-02-20 09:52:10.369 +05:00 [INF] Executing endpoint 'HTTP: GET /Students'
+2024-02-20 09:52:10.370 +05:00 [INF] Handling ListStudentQuery
+2024-02-20 09:52:10.371 +05:00 [INF] Property Skip : null
+2024-02-20 09:52:10.371 +05:00 [INF] Property Take : null
+2024-02-20 09:52:12.356 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."Name"
+FROM "Students" AS "s"
+2024-02-20 09:52:16.157 +05:00 [INF] Handled ListStudentQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[Flexi.Application.Core.Aggregates.StudentAggregate.Student]] in 5785 ms
+2024-02-20 09:52:16.159 +05:00 [INF] Executed endpoint 'HTTP: GET /Students'
+2024-02-20 09:52:16.159 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/Students - 200 null application/json 5796.6225ms
+2024-02-20 09:59:23.625 +05:00 [INF] Registered 7 endpoints in 476 milliseconds.
+2024-02-20 09:59:24.328 +05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-02-20 09:59:24.439 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Contributors" AS "c")
+2024-02-20 09:59:24.537 +05:00 [INF] Now listening on: http://localhost:57679
+2024-02-20 09:59:24.538 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-20 09:59:24.538 +05:00 [INF] Hosting environment: Development
+2024-02-20 09:59:24.539 +05:00 [INF] Content root path: C:\Users\Yahya\Documents\Visual Studio 2022\Projects\FlexiSchools\Flexi.Application\src\Flexi.Application.Web
+2024-02-20 10:07:03.717 +05:00 [INF] Registered 9 endpoints in 350 milliseconds.
+2024-02-20 10:07:04.413 +05:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-02-20 10:07:04.561 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Contributors" AS "c")
+2024-02-20 10:07:04.658 +05:00 [INF] Now listening on: http://localhost:57679
+2024-02-20 10:07:04.659 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-20 10:07:04.660 +05:00 [INF] Hosting environment: Development
+2024-02-20 10:07:04.660 +05:00 [INF] Content root path: C:\Users\Yahya\Documents\Visual Studio 2022\Projects\FlexiSchools\Flexi.Application\src\Flexi.Application.Web
+2024-02-20 10:07:15.122 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger - null null
+2024-02-20 10:07:15.233 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger - 302 0 null 114.6073ms
+2024-02-20 10:07:15.236 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/index.html - null null
+2024-02-20 10:07:15.332 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 96.2454ms
+2024-02-20 10:07:15.342 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-20 10:07:15.343 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_vs/browserLink - null null
+2024-02-20 10:07:15.347 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 5.0443ms
+2024-02-20 10:07:15.373 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.9933ms
+2024-02-20 10:07:15.435 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/v1/swagger.json - null null
+2024-02-20 10:07:15.446 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-02-20 10:07:15.840 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 404.4794ms
+2024-02-20 10:07:20.656 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/Students - null null
+2024-02-20 10:07:20.660 +05:00 [WRN] Failed to determine the https port for redirect.
+2024-02-20 10:07:20.662 +05:00 [INF] Executing endpoint 'HTTP: GET /Students'
+2024-02-20 10:07:20.686 +05:00 [INF] Handling ListSubjectQuery
+2024-02-20 10:07:20.687 +05:00 [INF] Property Skip : null
+2024-02-20 10:07:20.687 +05:00 [INF] Property Take : null
+2024-02-20 10:07:32.981 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."Name"
+FROM "Students" AS "s"
+2024-02-20 10:07:33.012 +05:00 [INF] Handled ListSubjectQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[Flexi.Application.Core.Aggregates.StudentAggregate.Student]] in 12323 ms
+2024-02-20 10:07:33.028 +05:00 [INF] Executed endpoint 'HTTP: GET /Students'
+2024-02-20 10:07:33.034 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/Students - 200 null application/json 12378.1769ms
+2024-02-20 10:07:44.072 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/Subjects - null null
+2024-02-20 10:07:44.074 +05:00 [INF] Executing endpoint 'HTTP: GET /Subjects'
+2024-02-20 10:07:44.078 +05:00 [INF] Handling ListSubjectQuery
+2024-02-20 10:07:44.078 +05:00 [INF] Property Skip : null
+2024-02-20 10:07:44.079 +05:00 [INF] Property Take : null
+2024-02-20 10:07:44.086 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."Name"
+FROM "Subjects" AS "s"
+2024-02-20 10:07:44.092 +05:00 [INF] Handled ListSubjectQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[Flexi.Application.Core.Aggregates.SubjectAggregate.Subject]] in 12 ms
+2024-02-20 10:07:44.097 +05:00 [INF] Executed endpoint 'HTTP: GET /Subjects'
+2024-02-20 10:07:44.098 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/Subjects - 200 null application/json 26.082ms
+2024-02-20 10:07:45.494 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/Subjects - null null
+2024-02-20 10:07:45.496 +05:00 [INF] Executing endpoint 'HTTP: GET /Subjects'
+2024-02-20 10:07:45.497 +05:00 [INF] Handling ListSubjectQuery
+2024-02-20 10:07:45.498 +05:00 [INF] Property Skip : null
+2024-02-20 10:07:45.499 +05:00 [INF] Property Take : null
+2024-02-20 10:07:45.500 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."Name"
+FROM "Subjects" AS "s"
+2024-02-20 10:07:45.502 +05:00 [INF] Handled ListSubjectQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[Flexi.Application.Core.Aggregates.SubjectAggregate.Subject]] in 2 ms
+2024-02-20 10:07:45.503 +05:00 [INF] Executed endpoint 'HTTP: GET /Subjects'
+2024-02-20 10:07:45.504 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/Subjects - 200 null application/json 9.7838ms
+2024-02-20 10:07:49.546 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/Subjects - null null
+2024-02-20 10:07:49.548 +05:00 [INF] Executing endpoint 'HTTP: GET /Subjects'
+2024-02-20 10:07:49.550 +05:00 [INF] Handling ListSubjectQuery
+2024-02-20 10:07:49.550 +05:00 [INF] Property Skip : null
+2024-02-20 10:07:49.551 +05:00 [INF] Property Take : null
+2024-02-20 10:07:49.553 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."Name"
+FROM "Subjects" AS "s"
+2024-02-20 10:07:49.555 +05:00 [INF] Handled ListSubjectQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[Flexi.Application.Core.Aggregates.SubjectAggregate.Subject]] in 2 ms
+2024-02-20 10:07:49.556 +05:00 [INF] Executed endpoint 'HTTP: GET /Subjects'
+2024-02-20 10:07:49.557 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/Subjects - 200 null application/json 10.6046ms

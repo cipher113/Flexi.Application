@@ -1,0 +1,80 @@
+2024-02-19 11:39:01.598 +05:00 [INF] Registered 5 endpoints in 1953 milliseconds.
+2024-02-19 11:39:03.050 +05:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2024-02-19 11:39:03.103 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Contributors" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Contributors" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Status" INTEGER NOT NULL
+);
+2024-02-19 11:39:03.258 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Contributors" AS "c")
+2024-02-19 11:39:03.292 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status"
+FROM "Contributors" AS "c"
+2024-02-19 11:39:03.383 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 7), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Contributors" ("Name", "Status")
+VALUES (@p0, @p1)
+RETURNING "Id";
+2024-02-19 11:39:03.399 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 8), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Contributors" ("Name", "Status")
+VALUES (@p0, @p1)
+RETURNING "Id";
+2024-02-19 11:39:03.670 +05:00 [INF] Now listening on: http://localhost:57679
+2024-02-19 11:39:03.671 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 11:39:03.672 +05:00 [INF] Hosting environment: Development
+2024-02-19 11:39:03.673 +05:00 [INF] Content root path: C:\Users\Yahya\Documents\Visual Studio 2022\Projects\FlexiSchools\Flexi.Application\src\Flexi.Application.Web
+2024-02-19 11:39:04.722 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/Contributors - null null
+2024-02-19 11:39:04.788 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger - null null
+2024-02-19 11:39:04.819 +05:00 [WRN] Failed to determine the https port for redirect.
+2024-02-19 11:39:04.821 +05:00 [INF] Executing endpoint 'HTTP: GET /Contributors'
+2024-02-19 11:39:04.876 +05:00 [INF] Handling ListContributorsQuery
+2024-02-19 11:39:04.878 +05:00 [INF] Property Skip : null
+2024-02-19 11:39:04.878 +05:00 [INF] Property Take : null
+2024-02-19 11:39:04.927 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger - 302 0 null 139.669ms
+2024-02-19 11:39:04.931 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/index.html - null null
+2024-02-19 11:39:04.952 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."Name"
+FROM (
+    SELECT Id, Name FROM Contributors
+) AS "f"
+2024-02-19 11:39:04.956 +05:00 [INF] Handled ListContributorsQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[Flexi.Application.UseCases.Contributors.ContributorDTO]] in 76 ms
+2024-02-19 11:39:04.977 +05:00 [INF] Executed endpoint 'HTTP: GET /Contributors'
+2024-02-19 11:39:04.986 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/Contributors - 200 null application/json 267.7139ms
+2024-02-19 11:39:05.241 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 310.6147ms
+2024-02-19 11:39:05.248 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/swagger-ui.css - null null
+2024-02-19 11:39:05.253 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/index.css - null null
+2024-02-19 11:39:05.253 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/swagger-ui-bundle.js - null null
+2024-02-19 11:39:05.254 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-19 11:39:05.255 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_vs/browserLink - null null
+2024-02-19 11:39:05.253 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/swagger-ui-standalone-preset.js - null null
+2024-02-19 11:39:05.271 +05:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2024-02-19 11:39:05.271 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 17.3949ms
+2024-02-19 11:39:05.277 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/index.css - 200 218 text/css 23.8765ms
+2024-02-19 11:39:05.298 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-02-19 11:39:05.298 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-02-19 11:39:05.304 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/swagger-ui.css - 200 151213 text/css 55.5569ms
+2024-02-19 11:39:05.304 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/swagger-ui-standalone-preset.js - 200 230642 text/javascript 50.8123ms
+2024-02-19 11:39:05.308 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-02-19 11:39:05.313 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/swagger-ui-bundle.js - 200 1385018 text/javascript 59.5695ms
+2024-02-19 11:39:05.326 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.7069ms
+2024-02-19 11:39:05.496 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/v1/swagger.json - null null
+2024-02-19 11:39:05.509 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/favicon-32x32.png - null null
+2024-02-19 11:39:05.511 +05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-02-19 11:39:05.512 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/favicon-32x32.png - 200 628 image/png 2.7196ms
+2024-02-19 11:39:05.532 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-02-19 11:39:05.994 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 498.5933ms
+2024-02-19 11:39:52.067 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57679/Contributors/1 - null null
+2024-02-19 11:39:52.073 +05:00 [INF] Executing endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+2024-02-19 11:39:52.097 +05:00 [INF] Handling GetContributorQuery
+2024-02-19 11:39:52.098 +05:00 [INF] Property ContributorId : 1
+2024-02-19 11:39:52.128 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__contributorId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status"
+FROM "Contributors" AS "c"
+WHERE "c"."Id" = @__contributorId_0
+LIMIT 1
+2024-02-19 11:39:52.133 +05:00 [INF] Handled GetContributorQuery with Ardalis.Result.Result`1[Flexi.Application.UseCases.Contributors.ContributorDTO] in 34 ms
+2024-02-19 11:39:52.135 +05:00 [INF] Executed endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+2024-02-19 11:39:52.136 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57679/Contributors/1 - 200 null application/json 69.3096ms
