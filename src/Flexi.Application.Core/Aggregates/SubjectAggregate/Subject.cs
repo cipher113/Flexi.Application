@@ -18,12 +18,9 @@ public class Subject(string name) : EntityBase, IAggregateRoot
   public IEnumerable<Lecture> Lectures => _lectures.AsReadOnly();
   public IEnumerable<Enrollment> Enrollments => _enrollments.AsReadOnly();
 
-  // Constructor and methods for bus2iness logic
-
-  public void ScheduleLecture(Lecture lecture)
+  public void EnrollStudent(int studentId)
   {
-    // Implement scheduling logic, considering business rules
-    // Ensure that lecture scheduling doesn't violate any rules
-    _lectures.Add(lecture);
+    var enrollment = new Enrollment(this.Id, studentId);
+    _enrollments.Add(enrollment);
   }
 }

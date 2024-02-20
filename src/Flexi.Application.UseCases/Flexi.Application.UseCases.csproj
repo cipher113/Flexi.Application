@@ -10,8 +10,4 @@
     <ProjectReference Include="..\Flexi.Application.Core\Flexi.Application.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Students\Enroll\" />
-  </ItemGroup>
-
 </Project>

@@ -5,9 +5,12 @@ namespace Flexi.Application.Core.Aggregates.StudentAggregate.Specifications;
 
 public class StudentByIdSpec : Specification<Student>
 {
-  public StudentByIdSpec(int contributorId)
+  public StudentByIdSpec(int studentId)
   {
     Query
-        .Where(contributor => contributor.Id == contributorId);
+        .Include(s => s.Enrollments)
+          .ThenInclude(e => e.Subject)
+          .ThenInclude(s => s!.Lectures)
+        .Where(s => s.Id == studentId);
   }
 }

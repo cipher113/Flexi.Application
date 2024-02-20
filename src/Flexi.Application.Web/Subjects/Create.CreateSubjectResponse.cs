@@ -1,12 +1,7 @@
 ﻿namespace Flexi.Application.Web.Endpoints.SubjectEndpoints;
 
-public class CreateSubjectResponse
+public class CreateSubjectResponse(int id, string name)
 {
-  public CreateSubjectResponse(int id, string name)
-  {
-    Id = id;
-    Name = name;
-  }
-  public int Id { get; set; }
-  public string Name { get; set; }
+  public int Id { get; set; } = id;
+  public string Name { get; set; } = name;
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using Ardalis.GuardClauses;
 using Ardalis.SharedKernel;
@@ -17,6 +18,9 @@ public class Lecture(int subjectId, int lectureTheatreId, string day, string tim
   public string Day { get; private set; } = Guard.Against.NullOrEmpty(day, nameof(day));
   public string Time { get; private set; } = Guard.Against.NullOrEmpty(time, nameof(time));
   public int Duration { get; private set; } = Guard.Against.NegativeOrZero(duration, nameof(duration));
+
+  [JsonIgnore]
   public Subject? Subject { get; private set; }
+  [JsonIgnore]
   public LectureTheatre? LectureTheatre { get; private set; }
 }

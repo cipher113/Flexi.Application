@@ -4,9 +4,12 @@ namespace Flexi.Application.Core.Aggregates.SubjectAggregate.Specifications;
 
 public class SubjectByIdSpec : Specification<Subject>
 {
-  public SubjectByIdSpec(int contributorId)
+  public SubjectByIdSpec(int subjectId)
   {
     Query
-        .Where(contributor => contributor.Id == contributorId);
+        .Include(s => s.Lectures)
+          .ThenInclude(l=>l.LectureTheatre)
+        .Include(s => s.Enrollments)
+        .Where(s => s.Id == subjectId);
   }
 }
