@@ -28,7 +28,7 @@ public class Create(IMediator _mediator)
     CreateSubjectRequest request,
     CancellationToken cancellationToken)
   {
-    var result = await _mediator.Send(new CreateLectureTheatreCommand(request.Name!));
+    var result = await _mediator.Send(new CreateSubjectCommand(request.Name!));
 
     if(result.IsSuccess)
     {

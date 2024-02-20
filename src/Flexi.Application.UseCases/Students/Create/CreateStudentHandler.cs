@@ -8,10 +8,10 @@ using Ardalis.SharedKernel;
 using Flexi.Application.Core.Aggregates.StudentAggregate;
 
 namespace Flexi.Application.UseCases.Students.Create;
-public class CreateSubjectHandler(IRepository<Student> _repository)
-  : ICommandHandler<CreateSubjectCommand, Result<int>>
+public class CreateStudentHandler(IRepository<Student> _repository)
+  : ICommandHandler<CreateStudentCommand, Result<int>>
 {
-  public async Task<Result<int>> Handle(CreateSubjectCommand request, CancellationToken cancellationToken)
+  public async Task<Result<int>> Handle(CreateStudentCommand request, CancellationToken cancellationToken)
   {
     var newStudent = new Student(request.Name);
     var createdItem = await _repository.AddAsync(newStudent, cancellationToken);

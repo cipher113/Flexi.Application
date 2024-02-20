@@ -28,7 +28,7 @@ public class List(IMediator _mediator) : EndpointWithoutRequest<StudentListRespo
     {
       Response = new StudentListResponse
       {
-        Students = result.Value.Select(c => new SubjectRecord(c.Id, c.Name)).ToList()
+        Students = result.Value.Select(c => new StudentRecord(c.Id, c.Name)).ToList()
       };
     }
   }

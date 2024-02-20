@@ -1,4 +1,4 @@
-﻿using Flexi.Application.Core.ContributorAggregate;
+﻿using Flexi.Application.Core.Aggregates.ContributorAggregate;
 using Xunit;
 
 namespace Flexi.Application.IntegrationTests.Data;
